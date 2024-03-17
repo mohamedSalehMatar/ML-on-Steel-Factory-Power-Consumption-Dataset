@@ -44,7 +44,7 @@ Data have been split into 80% training, 10% testing and 10% validation using k-f
 Polynomial Regression is the best model used, with 96% accuracy. Mean Squared Error (MSE) is calculated for training and validation to plot a learning curve over all folds. In Polynomial Regression Model: training, testing and validation data is transformed to polynomial features of degree 2.
 
 
-## 2.1 Hyperparameter Tuning: 
+## 2.1 Hyperparameter Tuning
 
 Hyperparameter tuning is the process of optimizing the settings that control how a machine learning algorithm learns from data. These settings, called hyperparameters, are external to the model and cannot be directly learned from the dataset. They govern various aspects of the learning process, such as the model's complexity, the rate at which it learns, and how much it penalizes large parameter values (regularization). By fine-tuning these hyperparameters, we aim to maximize the algorithm’s performance on a specific dataset. Hyperparameter Tuning gave the best accuracy on the Lasso Regression Model. The objective is to find the optimal value of the hyperparameter alpha, which controls the strength of regularization, resulting in improved model performance. The hyperparameter tuning process for Lasso Regression involved evaluating two alpha values using k-fold cross-validation. The best alpha value was determined based on the lowest validation error. The final model, trained with the optimal alpha, achieved satisfactory performance on both training and testing datasets. When we used it for the model training and testing accuracy was increased, so there is the difference between the model before and after the hyperparameter tuning.
  
